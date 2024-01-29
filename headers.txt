@@ -1,0 +1,25 @@
+Request Headers
+User-Agent: PostmanRuntime/7.36.1 - User-Agent set by client to indicate information that pertains to the client
+Accept: */* - Accept is what the client accepts (*/* = all)
+Postman-Token: c11609ca-bc61-4ab0-8a99-a04a3f61ba6b - An identifier to prevent request duplication.
+Host: www.googleapis.com - The domain name of the server from which the request is being made.
+Accept-Encoding: gzip, deflate, br - The acceptable file formats for compression of the response content
+Connection: keep-alive - Keeps connection open for multiple requests until terminated or specified otherwise
+
+Response Headers
+Content-Type: application/json; charset=UTF-8 - Requests the content type of the response be in JSON format encoded in UTF-8
+Vary: Origin - Accounts for variations in responses based on the origin
+Vary: X-Origin - Accounts for variations in responses based on the x-origin
+Vary: Referer  - Accounts for variations in responses based on the referer or the wWeb link
+Content-Encoding: gzip - indicates the format with which the response content is encoded (in this case gzip)
+Date: Mon, 29 Jan 2024 05:01:49 GMT - Request date
+Server: ESF - Web server software handling the request
+Cache-Control: private - Instructs the caches along the request-response chain on storage behavior of the caches
+X-XSS-Protection: 0 - Indicates whether or not a browser should enable cross-site scripting (typically built in)
+X-Frame-Options: SAMEORIGIN - Indicates whether a web page can be embedded within an iframe.
+X-Content-Type-Options: nosniff - Indicates the presence of content type options and tells the browser not to override the declared content type
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - Provides alternative sources for given resources (i.e. an alt service using HTTP/3 (h3) is available on port 443)
+Transfer-Encoding: chunked - Method of data transfer
+Response Body
+Body is more than 10 KB and can only be viewed in editor.
+
